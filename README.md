@@ -1,5 +1,5 @@
 # flask_trading
-#PYTHON WEBAPP
+## PYTHON WEBAPP
 This is a simple webapp for mock buy and selling item with client registration and authentication using flask.
 Even following the tutorial of this project on freecodecam youtube channel I face some bugs and issues due to some outdated
 packages used in the original tutorial, so I need to google the answer to make it work, and thank God I made it to work!!!
