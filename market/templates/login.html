@@ -6,11 +6,19 @@ Login Page
 
 
 {% block content%}
+<style>
+.circular--square { border-radius: 50%;
+                    width: 20%;
+                    height: auto;
+                    margin-top: 40px;
+                    }
+
+</style>
 <body class="text-center">
     <div class="container">
         <form method="POST" class="form-signin" style="color:white">
             {{ form.hidden_tag() }}
-            <img class="mb-4" src="#" alt="logo">
+            <img class="mb-4 circular--square" src="{{url_for('static', filename='logo.png')}}" align="middle" alt="logo"/>
             <h1 class="h3 mb-3 font-weight-normal">
                 Please Login
             </h1>
